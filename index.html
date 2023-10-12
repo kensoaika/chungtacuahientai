@@ -7,18 +7,13 @@
 <style> 
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
 body {
-  width:100vw;
-  height:100vw;
-  background-image:url("https://s3.cloud.cmctelecom.vn/tinhte2/2020/12/5276686_cover.jpg");
-  background-repeat:no-repeat;
-  background-position:center center;
-  background-size: cover
-}
-
-@media only screen and (min-width:1px) and (max-width:700px) {
-body {
-    background-position:left center;
-  }
+    background: url(https://s3.cloud.cmctelecom.vn/tinhte2/2020/12/5276686_cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 .your-centered-div {
     width: 560px; /* you have to have a size or this method doesn't work */
